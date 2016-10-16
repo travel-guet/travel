@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--actionBar的背景字体颜色-->
+    <color name="toolbar_text_color">#FFFFFF</color>
+    <!--actionBar的背景颜色-->
+    <color name="toolbar_color">#40c2f7</color>
+</resources>
