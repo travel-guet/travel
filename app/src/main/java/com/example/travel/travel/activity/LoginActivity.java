@@ -2,8 +2,11 @@ package com.example.travel.travel.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,6 +16,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.travel.travel.R;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * 登录
@@ -30,6 +39,23 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private TextView login_forget_text;
     private TextView login_register_text;
     private LinearLayout login_question;
+    private String BoatUrl = "http://172.29.150.1:8080/boat/do/";
+    private String jsondata=null;
+    private String username;
+    private String password;
+
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            if (msg.what == 1) {
+                Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
+                //tv.setText(datas);
+            }
+            if (msg.what == 0) {
+                Toast.makeText(getApplicationContext(), "请检查网络", Toast.LENGTH_LONG).show();
+            }
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,8 +91,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                 break;
             case R.id.login_btn:
-
-
+                submit(); //登录
+                          //跳转页面
+                          //写入cookie
                 break;
             case R.id.login_forget_tv:
                 Intent findpassword = new Intent(LoginActivity.this , FindPasswordActivity.class);
@@ -81,20 +108,75 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void submit() {
         // validate
-        String username = login_username.getText().toString().trim();
+        username = login_username.getText().toString().trim();
         if (TextUtils.isEmpty(username)) {
             Toast.makeText(this, "请输入账号", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        String password = login_password.getText().toString().trim();
+        password = login_password.getText().toString().trim();
         if (TextUtils.isEmpty(password)) {
             Toast.makeText(this, "请输入密码", Toast.LENGTH_SHORT).show();
             return;
         }
 
         // TODO validate success, do something
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                Login(username, password);
+            }
+        };
+        new Thread(r).start();
+
+    }
+
+    private boolean Login(String name, String passwd) {
+        try {
+
+            URL url = new URL(BoatUrl + "loginForm/checkValidate1");
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
 
+            conn.setConnectTimeout(5000);
+            conn.setRequestMethod("POST");
+
+            StringBuilder data=new StringBuilder();
+            data.append("username=").append(URLEncoder.encode(name,"utf-8")).append("&");
+            data.append("password=").append(passwd).append("&");
+            data.append("client=").append("i");
+            byte[] entity=data.toString().getBytes();
+
+            conn.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
+            conn.setRequestProperty("Content-Length",entity.length+"");
+            conn.setDoOutput(true);
+            OutputStream os = conn.getOutputStream();
+            //    os.write(entity);
+            if(conn.getResponseCode()==200){
+                InputStream is=conn.getInputStream();
+                byte [] rep=new byte[1024];
+                jsondata="";
+                while(is.read(rep)!=-1){
+                    jsondata=jsondata+new String(rep,0,rep.length);
+                }
+                handler.sendEmptyMessage(1);
+                return true;
+            } else{
+                Log.v("shfkhshfkdsdshklfsss",conn.getResponseCode()+"");
+                handler.sendEmptyMessage(0);
+            }
+
+
+//            cookieval=conn.getHeaderField("set-cookie");
+//            if(cookieval!=null)
+//            {
+//                sessionid=cookieval.substring(0,cookieval.indexOf(";"));
+//            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 }
