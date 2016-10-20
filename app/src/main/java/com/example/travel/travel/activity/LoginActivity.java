@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+
+import cz.msebera.android.httpclient.Header;
+
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,16 +18,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.travel.travel.R;
+import com.example.travel.travel.utils.BoatHttpClient;
+import com.example.travel.travel.utils.GlobalConstantUtil;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLEncoder;
 
 /**
  * 登录
- * */
+ */
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
 
@@ -39,20 +41,31 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private TextView login_forget_text;
     private TextView login_register_text;
     private LinearLayout login_question;
+    private final Integer LOGIN_RESULT = 1;
     private String BoatUrl = "http://172.29.150.1:8080/boat/do/";
-    private String jsondata=null;
+    private String jsondata = null;
     private String username;
     private String password;
 
+
+    //http://172.29.150.1:8080/boat/do/loginForm/checkValidate?username=admin&passwd=123456&client=i
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            if (msg.what == 1) {
-                Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
-                //tv.setText(datas);
-            }
-            if (msg.what == 0) {
-                Toast.makeText(getApplicationContext(), "请检查网络", Toast.LENGTH_LONG).show();
+            try {
+                if (msg.what == 1) {
+                    JSONObject json = new JSONObject(msg.obj.toString());
+                    String login = (String) json.get("login");
+                    if (login.equals("true"))
+                        Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
+                    else
+                        Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_LONG).show();
+                }
+                if (msg.what == 0) {
+                    Toast.makeText(getApplicationContext(), "请检查网络", Toast.LENGTH_LONG).show();
+                }
+            } catch (Exception e) {
+
             }
         }
     };
@@ -92,16 +105,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.login_btn:
                 submit(); //登录
-                          //跳转页面
-                          //写入cookie
+                //跳转页面
+                //写入cookie
                 break;
             case R.id.login_forget_tv:
-                Intent findpassword = new Intent(LoginActivity.this , FindPasswordActivity.class);
-                startActivity( findpassword);
+                Intent findpassword = new Intent(LoginActivity.this, FindPasswordActivity.class);
+                startActivity(findpassword);
                 break;
             case R.id.login_register_tv:
-                Intent register = new Intent(LoginActivity.this , RegisterActivity.class);
-                startActivity( register);
+                Intent register = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(register);
                 break;
         }
     }
@@ -121,62 +134,29 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
 
         // TODO validate success, do something
-        Runnable r = new Runnable() {
-            @Override
-            public void run() {
-                Login(username, password);
-            }
-        };
-        new Thread(r).start();
-
+        Login();
     }
 
-    private boolean Login(String name, String passwd) {
-        try {
+    private void Login() {
+        RequestParams params = new RequestParams();
+        params.put("username", username);
+        params.put("password", password);
+        params.put("client", "i");   //判断是不是客户端
+        BoatHttpClient.post_redirect(GlobalConstantUtil.DO + "loginForm/checkValidate", params, new AsyncHttpResponseHandler() {
 
-            URL url = new URL(BoatUrl + "loginForm/checkValidate1");
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            @Override
+            public void onSuccess(int i, Header[] headers, byte[] bytes) {
+                handler.sendMessage(handler.obtainMessage(LOGIN_RESULT, new String(bytes)));
+            }
 
-
-            conn.setConnectTimeout(5000);
-            conn.setRequestMethod("POST");
-
-            StringBuilder data=new StringBuilder();
-            data.append("username=").append(URLEncoder.encode(name,"utf-8")).append("&");
-            data.append("password=").append(passwd).append("&");
-            data.append("client=").append("i");
-            byte[] entity=data.toString().getBytes();
-
-            conn.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
-            conn.setRequestProperty("Content-Length",entity.length+"");
-            conn.setDoOutput(true);
-            OutputStream os = conn.getOutputStream();
-            //    os.write(entity);
-            if(conn.getResponseCode()==200){
-                InputStream is=conn.getInputStream();
-                byte [] rep=new byte[1024];
-                jsondata="";
-                while(is.read(rep)!=-1){
-                    jsondata=jsondata+new String(rep,0,rep.length);
-                }
-                handler.sendEmptyMessage(1);
-                return true;
-            } else{
-                Log.v("shfkhshfkdsdshklfsss",conn.getResponseCode()+"");
+            @Override
+            public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
+                Toast.makeText(getApplicationContext(), new String(bytes, 0, bytes.length) + "登录失败", Toast.LENGTH_LONG).show();
                 handler.sendEmptyMessage(0);
             }
+        });
 
-
-//            cookieval=conn.getHeaderField("set-cookie");
-//            if(cookieval!=null)
-//            {
-//                sessionid=cookieval.substring(0,cookieval.indexOf(";"));
-//            }
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return false;
     }
+
+
 }
