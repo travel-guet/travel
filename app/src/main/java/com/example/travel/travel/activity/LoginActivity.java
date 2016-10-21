@@ -55,13 +55,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             try {
                 if (msg.what == 1) {
                     JSONObject json = new JSONObject(msg.obj.toString());
-                    String login = (String) json.get("login");
-                    if (login.equals("true"))
+                    if (json.getBoolean("success"))
                         Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
                     else
                         Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_LONG).show();
-                }
-                if (msg.what == 0) {
+                }else if (msg.what == 0) {
                     Toast.makeText(getApplicationContext(), "请检查网络", Toast.LENGTH_LONG).show();
                 }
             } catch (Exception e) {
@@ -137,12 +135,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         Login();
     }
 
+
     private void Login() {
         RequestParams params = new RequestParams();
         params.put("username", username);
         params.put("password", password);
-        params.put("client", "i");   //判断是不是客户端
-        BoatHttpClient.post_redirect(GlobalConstantUtil.DO + "loginForm/checkValidate", params, new AsyncHttpResponseHandler() {
+       // params.put("client", "i");   //判断是不是客户端
+        BoatHttpClient.post_redirect(GlobalConstantUtil.DO + "loginForm/phoneLogin", params, new AsyncHttpResponseHandler() {
 
             @Override
             public void onSuccess(int i, Header[] headers, byte[] bytes) {
@@ -151,7 +150,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
             @Override
             public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
-                Toast.makeText(getApplicationContext(), new String(bytes, 0, bytes.length) + "登录失败", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), i+ "获取信息失败", Toast.LENGTH_LONG).show();
                 handler.sendEmptyMessage(0);
             }
         });
