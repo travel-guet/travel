@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private TextView login_register_text;
     private LinearLayout login_question;
     private final Integer LOGIN_RESULT = 1;
-    private String BoatUrl = "http://172.29.150.1:8080/boat/do/";
+    private String BoatUrl = "http://172.27.35.1:8080/boat/do/";
     private String jsondata = null;
     private String username;
     private String password;
@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 if (msg.what == 1) {
                     JSONObject json = new JSONObject(msg.obj.toString());
                     if (json.getBoolean("success"))
-                        Toast.makeText(getApplicationContext(), "登录成功", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "登录成功"+json.get("userid"), Toast.LENGTH_LONG).show();
                     else
                         Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_LONG).show();
                 }else if (msg.what == 0) {
