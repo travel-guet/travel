@@ -1,5 +1,7 @@
 package com.example.travel.travel.activity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -69,6 +71,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             } catch (Exception e) {
 
             }
+            return;
         }
     };
     public void onCreate(Bundle savedInstanceState) {
@@ -113,6 +116,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             case R.id.btn_register:
                 //注册代码
                 submit();
+                SharedPreferences sharedPreferences=getSharedPreferences("userid", Context.MODE_ENABLE_WRITE_AHEAD_LOGGING);
+//                Toast.makeText(this, sharedPreferences.getString("userid",null), Toast.LENGTH_SHORT).show();
                 //this.finish();      //结束本界面，回到登录界面。
                 break;
         }
@@ -174,7 +179,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        //String data=json.toString()+"[\"password\":\"123456\"]";
         params.put("data",json.toString());
         BoatHttpClient.post_redirect(GlobalConstantUtil.DO + "site/UserRegController/register", params, new AsyncHttpResponseHandler() {
 

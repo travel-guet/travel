@@ -1,6 +1,8 @@
 package com.example.travel.travel.activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -55,9 +57,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             try {
                 if (msg.what == 1) {
                     JSONObject json = new JSONObject(msg.obj.toString());
-                    if (json.getBoolean("success"))
-                        Toast.makeText(getApplicationContext(), "登录成功"+json.get("userid"), Toast.LENGTH_LONG).show();
-                    else
+                    if (json.getBoolean("success")) {
+                        Toast.makeText(getApplicationContext(), "登录成功" + json.get("userid"), Toast.LENGTH_LONG).show();
+                        SaveUserId(json.getString("userid"));
+                    } else
                         Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_LONG).show();
                 }else if (msg.what == 0) {
                     Toast.makeText(getApplicationContext(), "请检查网络", Toast.LENGTH_LONG).show();
@@ -140,7 +143,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         RequestParams params = new RequestParams();
         params.put("username", username);
         params.put("password", password);
-       // params.put("client", "i");   //判断是不是客户端
         BoatHttpClient.post_redirect(GlobalConstantUtil.DO + "loginForm/phoneLogin", params, new AsyncHttpResponseHandler() {
 
             @Override
@@ -155,6 +157,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             }
         });
 
+    }
+    private void SaveUserId(String id){
+        SharedPreferences sharedPreferences=getSharedPreferences("userid", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor=sharedPreferences.edit();
+        editor.putString("userid",id);
+        editor.commit();
     }
 
 
