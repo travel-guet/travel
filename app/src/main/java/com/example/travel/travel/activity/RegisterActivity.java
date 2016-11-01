@@ -93,10 +93,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         register_phone = (EditText) findViewById(R.id.register_phone_et);
         rpc_4 = (View) findViewById(R.id.rpc_4);
         register_name=(EditText)findViewById(R.id.register_name);
-        register_veri_num_text = (EditText) findViewById(R.id.register_verify_num_et);
-        veri_btn = (Button) findViewById(R.id.veri_btn);
-        rpc_5 = (View) findViewById(R.id.rpc_5);
-        register_verification = (LinearLayout) findViewById(R.id.register_verification);
+//        register_veri_num_text = (EditText) findViewById(R.id.register_verify_num_et);
+//        veri_btn = (Button) findViewById(R.id.veri_btn);
+//        rpc_5 = (View) findViewById(R.id.rpc_5);
+//        register_verification = (LinearLayout) findViewById(R.id.register_verification);
         btn_register = (Button) findViewById(R.id.btn_register);
 
         register_back_image.setOnClickListener(this);
@@ -109,9 +109,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         switch (v.getId()) {
             case R.id.register_back_iv:
                 this.finish();      //结束本界面，回到登录界面。
-                break;
-            case R.id.veri_btn:
-
                 break;
             case R.id.btn_register:
                 //注册代码

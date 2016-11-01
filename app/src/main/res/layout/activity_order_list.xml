@@ -16,6 +16,11 @@
         android:layout_height="wrap_content"
         android:text="修改用户信息"
         android:id="@+id/edit_user_info"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="酒店预订查询"
+        android:id="@+id/edit_hotel_info"/>
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">

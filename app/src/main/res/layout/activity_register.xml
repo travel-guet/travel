@@ -172,60 +172,16 @@
                 android:alpha="0.3"
                 android:background="#ffecaba2" />
 
-            <LinearLayout
-                android:id="@+id/register_verification"
-                android:layout_width="fill_parent"
-                android:layout_height="32.0dip"
-                android:layout_below="@id/register_phone_et"
-                android:layout_marginTop="20.0dip"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/register_verify_num_et"
-                    android:layout_width="0.0dip"
-                    android:layout_height="30.0dip"
-                    android:layout_marginLeft="20.0dip"
-                    android:layout_marginRight="20.0dip"
-                    android:layout_weight="2.0"
-                    android:background="@null"
-                    android:drawableLeft="@mipmap/key"
-                    android:hint="输入验证码"
-                    android:textSize="16.0sp" />
-
-
-                <Button
-                    android:id="@+id/veri_btn"
-                    android:layout_width="0.0dip"
-                    android:layout_height="30.0dip"
-                    android:layout_marginRight="20.0dip"
-                    android:layout_weight="2.0"
-                    android:background="@drawable/ver_boder"
-                    android:gravity="center"
-                    android:text="获取验证码"
-                    android:textColor="#ffecc2cc"
-                    android:textSize="16.0sp" />
-
-            </LinearLayout>
-
-            <View
-                android:id="@+id/rpc_5"
-                android:layout_width="fill_parent"
-                android:layout_height="1.0dip"
-                android:layout_below="@id/register_verify_num_et"
-                android:layout_marginTop="10.0dip"
-                android:alpha="0.3"
-                android:background="#ffecaba2" />
-
             <EditText
                 android:id="@+id/register_name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/rpc_5"
+                android:layout_below="@id/rpc_4"
                 android:layout_marginLeft="20.0dip"
                 android:layout_marginRight="20.0dip"
                 android:layout_marginTop="20.0dip"
                 android:background="@null"
-                android:hint="输入姓名（选填） "
+                android:hint="输入姓名"
                 android:textColor="#ff8c8e8b"
                 android:textSize="16.0sp" />
 
@@ -239,39 +195,19 @@
                 android:background="#ffecaba2" />
 
 
-            <EditText
-                android:id="@+id/register_id"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/rpc_6"
-                android:layout_marginLeft="20.0dip"
-                android:layout_marginRight="20.0dip"
-                android:layout_marginTop="20.0dip"
-                android:background="@null"
-                android:hint="输入身份证号（选填） "
-                android:textColor="#ff8c8e8b"
-                android:textSize="16.0sp" />
 
-            <View
-                android:id="@+id/rpc_7"
-                android:layout_width="fill_parent"
-                android:layout_height="1.0dip"
-                android:layout_below="@id/register_id"
-                android:layout_marginTop="10.0dip"
-                android:alpha="0.3"
-                android:background="#ffecaba2" />
 
 
             <EditText
                 android:id="@+id/register_email"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/rpc_7"
+                android:layout_below="@id/rpc_4"
                 android:layout_marginLeft="20.0dip"
                 android:layout_marginRight="20.0dip"
                 android:layout_marginTop="20.0dip"
                 android:background="@null"
-                android:hint="输入有效邮箱（选填） "
+                android:hint="输入有效邮箱"
                 android:textColor="#ff8c8e8b"
                 android:textSize="16.0sp" />
 
