@@ -5,10 +5,57 @@ package com.example.travel.travel.model;
  */
 
 public class HotelTicket {
-    private String ordersNum;
-    private String HotelName;
-    private String HotelType;
-    private String prices;
+    private String ordersNum=null;
+    private String HotelName=null;
+    private String HotelType=null;
+    private String prices=null;
+    private String hotelLv=null;
+    private String compName=null;
+    private String HotelId=null;
+    private String description=null;
+    private String comAddr=null;
+
+    public String getHotelLv() {
+        return hotelLv;
+    }
+
+    public void setHotelLv(String hotelLv) {
+        this.hotelLv = hotelLv;
+    }
+
+    public String getCompName() {
+        return compName;
+    }
+
+    public void setCompName(String compName) {
+        this.compName = compName;
+    }
+
+    public String getHotelId() {
+        return HotelId;
+    }
+
+    public void setHotelId(String hotelId) {
+        HotelId = hotelId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getComAddr() {
+        return comAddr;
+    }
+
+    public void setComAddr(String comAddr) {
+        this.comAddr = comAddr;
+    }
+
+
 
     public String getOrdersNum() {
         return ordersNum;
@@ -41,6 +88,9 @@ public class HotelTicket {
     public void setPrices(String prices) {
         this.prices = prices;
     }
+
+
+
     public HotelTicket(){
 
     }

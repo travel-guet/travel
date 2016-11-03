@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="酒店预订查询"
-        android:id="@+id/edit_hotel_info"/>
+        android:id="@+id/check_hotel_order"/>
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
