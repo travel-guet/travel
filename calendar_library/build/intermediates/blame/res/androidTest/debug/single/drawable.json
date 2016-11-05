@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\calendar_bg_selector.xml",
-        "source": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\calendar_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\calendar_bg_selector.xml",
-        "source": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\calendar_bg_selector.xml"
+        "merged": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\calendar_bg_selector.xml",
+        "source": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\calendar_bg_selector.xml"
     }
 ]

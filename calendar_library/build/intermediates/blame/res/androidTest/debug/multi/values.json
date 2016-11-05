@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 257
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 319
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 382
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 504
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 561
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 623
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 804
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1744
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1808
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1864
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1916
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1967
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 2019
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2067
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2133
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2189
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -411,7 +411,7 @@
                     "endOffset": 2460
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -432,7 +432,7 @@
                     "endOffset": 2632
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 2753
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -474,495 +474,7 @@
                     "endOffset": 2913
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 2758,
-                        "endLine": 41,
-                        "endColumn": 10,
-                        "endOffset": 2913
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 100,
-                    "endColumn": 60,
-                    "endOffset": 156
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 100,
-                        "endColumn": 60,
-                        "endOffset": 156
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 161,
-                    "endColumn": 47,
-                    "endOffset": 204
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 161,
-                        "endColumn": 47,
-                        "endOffset": 204
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 209,
-                    "endColumn": 52,
-                    "endOffset": 257
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 209,
-                        "endColumn": 52,
-                        "endOffset": 257
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 262,
-                    "endColumn": 61,
-                    "endOffset": 319
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 262,
-                        "endColumn": 61,
-                        "endOffset": 319
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 324,
-                    "endColumn": 62,
-                    "endOffset": 382
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 324,
-                        "endColumn": 62,
-                        "endOffset": 382
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 387,
-                    "endColumn": 58,
-                    "endOffset": 441
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 387,
-                        "endColumn": 58,
-                        "endOffset": 441
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 446,
-                    "endColumn": 62,
-                    "endOffset": 504
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 446,
-                        "endColumn": 62,
-                        "endOffset": 504
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 509,
-                    "endColumn": 56,
-                    "endOffset": 561
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 509,
-                        "endColumn": 56,
-                        "endOffset": 561
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 566,
-                    "endColumn": 61,
-                    "endOffset": 623
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 566,
-                        "endColumn": 61,
-                        "endOffset": 623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 628,
-                    "endColumn": 58,
-                    "endOffset": 682
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 628,
-                        "endColumn": 58,
-                        "endOffset": 682
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 687,
-                    "endColumn": 58,
-                    "endOffset": 741
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 687,
-                        "endColumn": 58,
-                        "endOffset": 741
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 746,
-                    "endColumn": 62,
-                    "endOffset": 804
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 746,
-                        "endColumn": 62,
-                        "endOffset": 804
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1684,
-                    "endColumn": 64,
-                    "endOffset": 1744
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1684,
-                        "endColumn": 64,
-                        "endOffset": 1744
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1749,
-                    "endColumn": 63,
-                    "endOffset": 1808
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1749,
-                        "endColumn": 63,
-                        "endOffset": 1808
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1813,
-                    "endColumn": 55,
-                    "endOffset": 1864
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1813,
-                        "endColumn": 55,
-                        "endOffset": 1864
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1869,
-                    "endColumn": 51,
-                    "endOffset": 1916
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1869,
-                        "endColumn": 51,
-                        "endOffset": 1916
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1921,
-                    "endColumn": 50,
-                    "endOffset": 1967
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1921,
-                        "endColumn": 50,
-                        "endOffset": 1967
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1972,
-                    "endColumn": 51,
-                    "endOffset": 2019
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1972,
-                        "endColumn": 51,
-                        "endOffset": 2019
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2024,
-                    "endColumn": 47,
-                    "endOffset": 2067
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2024,
-                        "endColumn": 47,
-                        "endOffset": 2067
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2072,
-                    "endColumn": 65,
-                    "endOffset": 2133
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2072,
-                        "endColumn": 65,
-                        "endOffset": 2133
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2138,
-                    "endColumn": 55,
-                    "endOffset": 2189
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 2138,
-                        "endColumn": 55,
-                        "endOffset": 2189
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 2194,
-                    "endLine": 30,
-                    "endColumn": 10,
-                    "endOffset": 2460
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 2194,
-                        "endLine": 30,
-                        "endColumn": 10,
-                        "endOffset": 2460
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 2465,
-                    "endLine": 34,
-                    "endColumn": 10,
-                    "endOffset": 2632
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 2465,
-                        "endLine": 34,
-                        "endColumn": 10,
-                        "endOffset": 2632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 2637,
-                    "endLine": 37,
-                    "endColumn": 10,
-                    "endOffset": 2753
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 2637,
-                        "endLine": 37,
-                        "endColumn": 10,
-                        "endOffset": 2753
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 2758,
-                    "endLine": 41,
-                    "endColumn": 10,
-                    "endOffset": 2913
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ru\\values-ru.xml",
+        "outputFile": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ru\\values-ru.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\旅游\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 76,
-                        "endOffset": 127
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ru\\values-ru.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "C:\\Users\\feng\\Desktop\\智能酒店\\intelligent_hotel-master\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "file": "G:\\Workspaces\\Android\\master\\travel-yuewe\\calendar_library\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

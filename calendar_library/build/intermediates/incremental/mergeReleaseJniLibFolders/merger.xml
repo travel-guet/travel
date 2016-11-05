@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\feng\Desktop\旅游\travel-yuewe\calendar_library\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\feng\Desktop\旅游\travel-yuewe\calendar_library\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="G:\Workspaces\Android\master\travel-yuewe\calendar_library\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="G:\Workspaces\Android\master\travel-yuewe\calendar_library\src\release\jniLibs"/></dataSet></merger>

@@ -6,4 +6,6 @@ package com.example.travel.travel.utils;
 public class GlobalConstantUtil {
     public static final String BASE_PATH="http://192.168.43.125:8080/boat/";
     public static final String DO =BASE_PATH+ "do/";
+    public static final Integer LOGIN_RESULT = 1;
+    public static final String USER_ID_FILENAME="userid";
 }

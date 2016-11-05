@@ -1,7 +1,9 @@
 package com.example.travel.travel.activity;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -26,6 +28,7 @@ public class ChooseRoomActivity extends AppCompatActivity implements View.OnClic
     private TextView check_in_date_tv;
     private TextView check_out_date_tv;
     private ListView room_list_list_view;
+    private AlertDialog.Builder dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +57,22 @@ public class ChooseRoomActivity extends AppCompatActivity implements View.OnClic
         room_list_list_view.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                showRoomDetailDialog();  //显示房间详细信息的人弹框
             }
         });
+    }
+
+    /**
+     * 显示房间详细信息的弹框
+     * */
+    private void showRoomDetailDialog() {
+        View view = LayoutInflater.from(this).inflate(R.layout.dialog_room_detail , null);
+        ImageView close_iv = (ImageView) view.findViewById(R.id.close_iv);
+        close_iv.setOnClickListener(this);
+        dialog = new AlertDialog.Builder(ChooseRoomActivity.this);
+        dialog.setView(view);
+        dialog.setCancelable(true);
+        dialog.show();
     }
 
     private ArrayList<Room> initAdapterDate() {
@@ -81,6 +97,9 @@ public class ChooseRoomActivity extends AppCompatActivity implements View.OnClic
         {
             case R.id.back_iv:
                 finish();
+                break;
+            case R.id.close_iv:
+
                 break;
 
         }

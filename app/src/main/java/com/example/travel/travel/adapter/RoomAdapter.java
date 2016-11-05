@@ -42,12 +42,12 @@ public class RoomAdapter extends ArrayAdapter<Room> {
             this.room_type_name_tv = (TextView) rootView.findViewById(R.id.room_type_name_tv);
             this.room_area_tv = (TextView) rootView.findViewById(R.id.room_area_tv);
             this.start_value_tv = (TextView) rootView.findViewById(R.id.start_value_tv);
-            this.reserve_btn = (Button) rootView.findViewById(R.id.reserve_btn);
-            reserve_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                }
-            });
+//            this.reserve_btn = (Button) rootView.findViewById(R.id.reserve_btn);
+//            reserve_btn.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                }
+//            });
         }
 
     }
